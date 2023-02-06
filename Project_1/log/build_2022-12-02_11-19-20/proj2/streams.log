@@ -1,0 +1,25 @@
+[0.771s] Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2': LD_LIBRARY_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/build --no-deps install_data
+[1.009s] running develop
+[1.009s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.009s]   warnings.warn(
+[1.010s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.010s]   warnings.warn(
+[1.059s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.060s]   warnings.warn(
+[1.060s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.060s]   warnings.warn(
+[1.148s] running egg_info
+[1.148s] writing proj2.egg-info/PKG-INFO
+[1.148s] writing dependency_links to proj2.egg-info/dependency_links.txt
+[1.148s] writing entry points to proj2.egg-info/entry_points.txt
+[1.148s] writing requirements to proj2.egg-info/requires.txt
+[1.148s] writing top-level names to proj2.egg-info/top_level.txt
+[1.150s] reading manifest file 'proj2.egg-info/SOURCES.txt'
+[1.150s] writing manifest file 'proj2.egg-info/SOURCES.txt'
+[1.152s] running build_ext
+[1.152s] Creating /home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib/python3.10/site-packages/proj2.egg-link (link to .)
+[1.152s] Installing subscriber script to /home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib/proj2
+[1.153s] 
+[1.153s] Installed /home/swapneel/rbe500/ghw1/groupassignment1/build/proj2
+[1.153s] running install_data
+[1.186s] Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2' returned '0': LD_LIBRARY_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/build --no-deps install_data

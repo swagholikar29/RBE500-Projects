@@ -1,0 +1,30 @@
+[0.249s] Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description -- -j8 -l8
+[1.711s] Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description -- -j8 -l8
+[1.748s] Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description
+[1.772s] -- Install configuration: ""
+[1.812s] -- Execute custom install script
+[1.958s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/config/rrbot.rviz
+[1.986s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro
+[1.986s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro
+[2.010s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae
+[2.061s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py
+[2.080s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro
+[2.125s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro
+[2.145s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro
+[2.167s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv
+[2.195s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description
+[2.195s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description
+[2.207s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh
+[2.215s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv
+[2.220s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/environment/path.sh
+[2.248s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/environment/path.dsv
+[2.315s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/local_setup.bash
+[2.377s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/local_setup.sh
+[2.501s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/local_setup.zsh
+[2.583s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/local_setup.dsv
+[2.583s] -- Symlinking: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.dsv
+[2.732s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description
+[2.880s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
+[2.897s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+[2.898s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.xml
+[2.902s] Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description

@@ -1,0 +1,25 @@
+[0.772s] Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1': PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/build --no-deps install_data
+[0.996s] running develop
+[0.996s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.996s]   warnings.warn(
+[0.997s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.997s]   warnings.warn(
+[1.046s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.046s]   warnings.warn(
+[1.046s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.046s]   warnings.warn(
+[1.134s] running egg_info
+[1.134s] writing proj1.egg-info/PKG-INFO
+[1.134s] writing dependency_links to proj1.egg-info/dependency_links.txt
+[1.134s] writing entry points to proj1.egg-info/entry_points.txt
+[1.134s] writing requirements to proj1.egg-info/requires.txt
+[1.134s] writing top-level names to proj1.egg-info/top_level.txt
+[1.136s] reading manifest file 'proj1.egg-info/SOURCES.txt'
+[1.136s] writing manifest file 'proj1.egg-info/SOURCES.txt'
+[1.137s] running build_ext
+[1.138s] Creating /home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib/python3.10/site-packages/proj1.egg-link (link to .)
+[1.138s] Installing subscriber script to /home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib/proj1
+[1.138s] 
+[1.138s] Installed /home/swapneel/rbe500/ghw1/groupassignment1/build/proj1
+[1.139s] running install_data
+[1.339s] Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1' returned '0': PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/build --no-deps install_data

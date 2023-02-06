@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/FirstService.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct FirstService_Request {
+      float x;
+
+      float y;
+
+      float z;
+    };
+    struct FirstService_Response {
+      float q1;
+
+      float q2;
+
+      float q3;
+    };
+  };
+};

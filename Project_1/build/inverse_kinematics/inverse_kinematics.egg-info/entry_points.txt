@@ -1,0 +1,3 @@
+[console_scripts]
+ikService = inverse_kinematics.service_member_function:main
+

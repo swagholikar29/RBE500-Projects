@@ -1,0 +1,3 @@
+[console_scripts]
+subscriber = proj2.service_member_function:main
+

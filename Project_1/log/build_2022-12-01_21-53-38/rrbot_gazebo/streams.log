@@ -1,0 +1,29 @@
+[0.090s] Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo': AMENT_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo -- -j8 -l8
+[1.032s] [100%] Built target publisher
+[1.032s] [100%] Built target switch
+[1.040s] Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo -- -j8 -l8
+[1.060s] Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo': AMENT_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo
+[1.090s] -- Install configuration: ""
+[1.144s] -- Execute custom install script
+[1.180s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/lib/rrbot_gazebo/publisher
+[1.180s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/lib/rrbot_gazebo/switch
+[1.265s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/launch/rrbot_world.launch.py
+[1.300s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/worlds/rrbot.world
+[1.330s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/config/controllers.yaml
+[1.330s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/config/gazebo_controllers.yaml
+[1.367s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/ament_index/resource_index/package_run_dependencies/rrbot_gazebo
+[1.368s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/ament_index/resource_index/parent_prefix_path/rrbot_gazebo
+[1.370s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.sh
+[1.370s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.dsv
+[1.379s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.sh
+[1.380s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.dsv
+[1.380s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.bash
+[1.380s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.sh
+[1.381s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.zsh
+[1.381s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.dsv
+[1.381s] -- Symlinking: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv
+[1.394s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/ament_index/resource_index/packages/rrbot_gazebo
+[1.394s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig.cmake
+[1.394s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig-version.cmake
+[1.394s] -- Up-to-date symlink: /home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.xml
+[1.398s] Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo

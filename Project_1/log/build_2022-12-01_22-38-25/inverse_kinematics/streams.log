@@ -1,0 +1,25 @@
+[0.903s] Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics': AMENT_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces LD_LIBRARY_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/python3.10/site-packages:/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/build --no-deps install_data
+[1.111s] running develop
+[1.111s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.111s]   warnings.warn(
+[1.112s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.112s]   warnings.warn(
+[1.224s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.224s]   warnings.warn(
+[1.224s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.224s]   warnings.warn(
+[1.303s] running egg_info
+[1.304s] writing inverse_kinematics.egg-info/PKG-INFO
+[1.304s] writing dependency_links to inverse_kinematics.egg-info/dependency_links.txt
+[1.304s] writing entry points to inverse_kinematics.egg-info/entry_points.txt
+[1.304s] writing requirements to inverse_kinematics.egg-info/requires.txt
+[1.304s] writing top-level names to inverse_kinematics.egg-info/top_level.txt
+[1.306s] reading manifest file 'inverse_kinematics.egg-info/SOURCES.txt'
+[1.306s] writing manifest file 'inverse_kinematics.egg-info/SOURCES.txt'
+[1.307s] running build_ext
+[1.308s] Creating /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/python3.10/site-packages/inverse-kinematics.egg-link (link to .)
+[1.308s] Installing ikService script to /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/inverse_kinematics
+[1.309s] 
+[1.309s] Installed /home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics
+[1.309s] running install_data
+[1.358s] Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics' returned '0': AMENT_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces LD_LIBRARY_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/python3.10/site-packages:/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/build --no-deps install_data

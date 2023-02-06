@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+proj2/__init__.py
+proj2/service_member_function.py
+proj2.egg-info/PKG-INFO
+proj2.egg-info/SOURCES.txt
+proj2.egg-info/dependency_links.txt
+proj2.egg-info/entry_points.txt
+proj2.egg-info/requires.txt
+proj2.egg-info/top_level.txt
+proj2.egg-info/zip-safe
+resource/proj2

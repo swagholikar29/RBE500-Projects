@@ -1,0 +1,30 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+creating inverse_kinematics.egg-info
+writing inverse_kinematics.egg-info/PKG-INFO
+writing dependency_links to inverse_kinematics.egg-info/dependency_links.txt
+writing entry points to inverse_kinematics.egg-info/entry_points.txt
+writing requirements to inverse_kinematics.egg-info/requires.txt
+writing top-level names to inverse_kinematics.egg-info/top_level.txt
+writing manifest file 'inverse_kinematics.egg-info/SOURCES.txt'
+reading manifest file 'inverse_kinematics.egg-info/SOURCES.txt'
+writing manifest file 'inverse_kinematics.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/python3.10/site-packages/inverse-kinematics.egg-link (link to .)
+Installing ikService script to /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/inverse_kinematics
+
+Installed /home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics
+running install_data
+creating /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/ament_index
+creating /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/ament_index/resource_index
+creating /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/ament_index/resource_index/packages
+copying resource/inverse_kinematics -> /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/ament_index/resource_index/packages
+copying package.xml -> /home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics

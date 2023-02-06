@@ -1,0 +1,451 @@
+[0.256s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.256s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f09730b2a10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0973bbf610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0973bbf610>>)
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.275s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/swapneel/rbe500/ghw1/groupassignment1'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/inverse_kinematics) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/inverse_kinematics' with type 'ros.ament_python' and name 'inverse_kinematics'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj1) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proj1' with type 'ros.ament_python' and name 'proj1'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj2) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proj2' with type 'ros.ament_python' and name 'proj2'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrbot_simulation_files/rrbot_description' with type 'ros.ament_cmake' and name 'rrbot_description'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_gazebo) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrbot_simulation_files/rrbot_gazebo' with type 'ros.ament_cmake' and name 'rrbot_gazebo'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.327s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/swapneel/rbe500/ghw1/groupassignment1/install
+[0.328s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 305 installed packages in /opt/ros/humble
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'proj1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'proj1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1', 'merge_install': False, 'path': '/home/swapneel/rbe500/ghw1/groupassignment1/src/proj1', 'symlink_install': True, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'rrbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description', 'merge_install': False, 'path': '/home/swapneel/rbe500/ghw1/groupassignment1/src/rrbot_simulation_files/rrbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/swapneel/rbe500/ghw1/groupassignment1/src/tutorial_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'inverse_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'inverse_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics', 'merge_install': False, 'path': '/home/swapneel/rbe500/ghw1/groupassignment1/src/inverse_kinematics', 'symlink_install': True, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'proj2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'proj2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2', 'merge_install': False, 'path': '/home/swapneel/rbe500/ghw1/groupassignment1/src/proj2', 'symlink_install': True, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'rrbot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo', 'merge_install': False, 'path': '/home/swapneel/rbe500/ghw1/groupassignment1/src/rrbot_simulation_files/rrbot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.389s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.392s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.393s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/tutorial_interfaces'
+[0.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/rrbot_simulation_files/rrbot_description' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/rrbot_simulation_files/rrbot_description'
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/proj1' with build type 'ament_python'
+[0.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj1', 'ament_prefix_path')
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/hook/ament_prefix_path.ps1'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/hook/ament_prefix_path.dsv'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/hook/ament_prefix_path.sh'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces -- -j8 -l8
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description -- -j8 -l8
+[0.689s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/proj1'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description -- -j8 -l8
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description
+[0.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_description
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description' for CMake module files
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description' for CMake config files
+[0.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'cmake_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.sh'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/bin'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/lib/python3.10/site-packages'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/bin'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.dsv'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.sh'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.bash'
+[0.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.zsh'
+[0.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[0.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description' for CMake module files
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description' for CMake config files
+[0.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'cmake_prefix_path')
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.dsv'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.sh'
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/bin'
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/lib/python3.10/site-packages'
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/bin'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.ps1'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.sh'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.bash'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/rrbot_description/package.zsh'
+[0.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[0.782s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/rrbot_simulation_files/rrbot_gazebo' with build type 'ament_cmake'
+[0.782s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/rrbot_simulation_files/rrbot_gazebo'
+[0.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces -- -j8 -l8
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo': CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces:/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo -- -j8 -l8
+[0.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces:/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --build /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo -- -j8 -l8
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo': CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces:/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo
+[0.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_gazebo)
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo' for CMake module files
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_description:/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces:/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/rrbot_gazebo
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo' for CMake config files
+[0.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_gazebo', 'cmake_prefix_path')
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.sh'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/lib'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/bin'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/lib/pkgconfig/rrbot_gazebo.pc'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/lib/python3.10/site-packages'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/bin'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.ps1'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.sh'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.bash'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.zsh'
+[0.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/colcon-core/packages/rrbot_gazebo)
+[0.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces' for CMake module files
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1:/opt/ros/humble /usr/bin/cmake --install /home/swapneel/rbe500/ghw1/groupassignment1/build/tutorial_interfaces
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces' for CMake config files
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib'
+[0.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/bin'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib/python3.10/site-packages'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/bin'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[0.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[0.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_gazebo)
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo' for CMake module files
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo' for CMake config files
+[0.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_gazebo', 'cmake_prefix_path')
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.ps1'
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.dsv'
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.sh'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/lib'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/bin'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/lib/pkgconfig/rrbot_gazebo.pc'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/lib/python3.10/site-packages'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/bin'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.sh'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.bash'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/rrbot_gazebo/package.zsh'
+[0.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/rrbot_gazebo/share/colcon-core/packages/rrbot_gazebo)
+[0.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces' for CMake module files
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces' for CMake config files
+[0.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib'
+[0.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/bin'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib/python3.10/site-packages'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/bin'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[0.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[0.995s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/inverse_kinematics' with build type 'ament_python'
+[0.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('inverse_kinematics', 'ament_prefix_path')
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/hook/ament_prefix_path.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/hook/ament_prefix_path.dsv'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/hook/ament_prefix_path.sh'
+[0.999s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.004s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/proj2' with build type 'ament_python'
+[1.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj2', 'ament_prefix_path')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/hook/ament_prefix_path.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/hook/ament_prefix_path.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/hook/ament_prefix_path.sh'
+[1.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.238s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/inverse_kinematics'
+[1.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1': PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/build --no-deps install_data
+[1.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swapneel/rbe500/ghw1/groupassignment1/src/proj2'
+[1.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj1', 'pythonpath_develop')
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/share/proj1/hook/pythonpath_develop.ps1'
+[1.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1' returned '0': PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/build --no-deps install_data
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/share/proj1/hook/pythonpath_develop.dsv'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj1/share/proj1/hook/pythonpath_develop.sh'
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1' for CMake module files
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1' for CMake config files
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/bin'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib/pkgconfig/proj1.pc'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/lib/python3.10/site-packages'
+[1.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj1', 'pythonpath')
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/hook/pythonpath.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/hook/pythonpath.dsv'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/hook/pythonpath.sh'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/bin'
+[1.695s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proj1)
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/package.ps1'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/package.dsv'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/package.sh'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/package.bash'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/proj1/package.zsh'
+[1.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/proj1/share/colcon-core/packages/proj1)
+[1.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics': LD_LIBRARY_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/build --no-deps install_data
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2': LD_LIBRARY_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/build --no-deps install_data
+[2.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('inverse_kinematics', 'pythonpath_develop')
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/share/inverse_kinematics/hook/pythonpath_develop.ps1'
+[2.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics' returned '0': LD_LIBRARY_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/build --no-deps install_data
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/share/inverse_kinematics/hook/pythonpath_develop.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/build/inverse_kinematics/share/inverse_kinematics/hook/pythonpath_develop.sh'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics' for CMake module files
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics' for CMake config files
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/bin'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/pkgconfig/inverse_kinematics.pc'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/lib/python3.10/site-packages'
+[2.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('inverse_kinematics', 'pythonpath')
+[2.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/hook/pythonpath.ps1'
+[2.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/hook/pythonpath.dsv'
+[2.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/hook/pythonpath.sh'
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/bin'
+[2.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(inverse_kinematics)
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/package.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/package.dsv'
+[2.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/package.sh'
+[2.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/package.bash'
+[2.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/inverse_kinematics/package.zsh'
+[2.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/inverse_kinematics/share/colcon-core/packages/inverse_kinematics)
+[2.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj2', 'pythonpath_develop')
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/share/proj2/hook/pythonpath_develop.ps1'
+[2.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2' returned '0': LD_LIBRARY_PATH=/home/swapneel/rbe500/ghw1/groupassignment1/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/prefix_override:/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/build --no-deps install_data
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/share/proj2/hook/pythonpath_develop.dsv'
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/build/proj2/share/proj2/hook/pythonpath_develop.sh'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2' for CMake module files
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2' for CMake config files
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/bin'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib/pkgconfig/proj2.pc'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/lib/python3.10/site-packages'
+[2.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj2', 'pythonpath')
+[2.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/hook/pythonpath.ps1'
+[2.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/hook/pythonpath.dsv'
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/hook/pythonpath.sh'
+[2.270s] Level 1:colcon.colcon_core.environment:checking '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/bin'
+[2.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proj2)
+[2.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/package.ps1'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/package.dsv'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/package.sh'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/package.bash'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/proj2/package.zsh'
+[2.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swapneel/rbe500/ghw1/groupassignment1/install/proj2/share/colcon-core/packages/proj2)
+[2.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.273s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.279s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.289s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.290s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swapneel/rbe500/ghw1/groupassignment1/install/local_setup.ps1'
+[2.291s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swapneel/rbe500/ghw1/groupassignment1/install/_local_setup_util_ps1.py'
+[2.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swapneel/rbe500/ghw1/groupassignment1/install/setup.ps1'
+[2.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swapneel/rbe500/ghw1/groupassignment1/install/local_setup.sh'
+[2.294s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swapneel/rbe500/ghw1/groupassignment1/install/_local_setup_util_sh.py'
+[2.294s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swapneel/rbe500/ghw1/groupassignment1/install/setup.sh'
+[2.296s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swapneel/rbe500/ghw1/groupassignment1/install/local_setup.bash'
+[2.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swapneel/rbe500/ghw1/groupassignment1/install/setup.bash'
+[2.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swapneel/rbe500/ghw1/groupassignment1/install/local_setup.zsh'
+[2.298s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swapneel/rbe500/ghw1/groupassignment1/install/setup.zsh'

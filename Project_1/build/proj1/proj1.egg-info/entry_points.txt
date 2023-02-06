@@ -1,0 +1,3 @@
+[console_scripts]
+subscriber = proj1.subscriber:main
+
